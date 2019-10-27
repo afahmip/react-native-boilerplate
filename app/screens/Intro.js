@@ -8,7 +8,6 @@ import {
   StatusBar,
   Button,
 } from 'react-native';
-
 import {
   Header,
   LearnMoreLinks,
@@ -16,6 +15,7 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import {getUsers, createUser} from '../services/api/example';
 
 const styles = StyleSheet.create({
   scrollView: {
@@ -57,6 +57,12 @@ const styles = StyleSheet.create({
 });
 
 export default class Intro extends React.Component {
+  componentDidMount = () => {
+    // Example API request, check console for output
+    getUsers();
+    createUser('Morpheus', 'Leader');
+  };
+
   render() {
     return (
       <>
