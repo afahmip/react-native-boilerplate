@@ -6,16 +6,17 @@ import {
   View,
   Text,
   StatusBar,
-  Button,
 } from 'react-native';
 import {
-  Header,
   LearnMoreLinks,
   Colors,
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 import {getUsers, createUser} from '../services/api/example';
+import {colors, sample} from '../styles';
+import Header from '../components/Header';
+import Button from '../components/Button';
 
 const styles = StyleSheet.create({
   scrollView: {
@@ -35,7 +36,7 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 24,
     fontWeight: '600',
-    color: Colors.black,
+    color: colors.tosca,
   },
   sectionDescription: {
     marginTop: 8,
@@ -81,7 +82,7 @@ export default class Intro extends React.Component {
               <View style={styles.sectionContainer}>
                 <Text style={styles.sectionTitle}>Step Zero</Text>
                 <Button
-                  title="Click here to go to second screen"
+                  text="Click here to go to second screen"
                   onPress={() => this.props.navigation.navigate('sample')}
                 />
               </View>
