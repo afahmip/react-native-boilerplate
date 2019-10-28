@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* bacaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* bacaTests.m */; };
-		106D63C3661F7E228702B361 /* libPods-bacaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9448FE6A7FFF2EBDE8840382 /* libPods-bacaTests.a */; };
+		00E356F31AD99517003FC87E /* ReactNativeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactNativeTests.m */; };
+		106D63C3661F7E228702B361 /* libPods-ReactNativeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9448FE6A7FFF2EBDE8840382 /* libPods-ReactNativeTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2846DC45881ED4CE61DBF0EF /* libPods-baca-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6597C972B2D4BBE0F1F386F1 /* libPods-baca-tvOS.a */; };
+		2846DC45881ED4CE61DBF0EF /* libPods-ReactNative-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6597C972B2D4BBE0F1F386F1 /* libPods-ReactNative-tvOS.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* bacaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* bacaTests.m */; };
-		5596963E68CF3DD559C2D3E1 /* libPods-baca-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D24BA566BA0CDE80F52E3B5 /* libPods-baca-tvOSTests.a */; };
-		6A3030956BD3EFE3830B83DE /* libPods-baca.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B42A2D0BEAF8B6D43717544 /* libPods-baca.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* ReactNativeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactNativeTests.m */; };
+		5596963E68CF3DD559C2D3E1 /* libPods-ReactNative-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D24BA566BA0CDE80F52E3B5 /* libPods-ReactNative-tvOSTests.a */; };
+		6A3030956BD3EFE3830B83DE /* libPods-ReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B42A2D0BEAF8B6D43717544 /* libPods-ReactNative.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,45 +28,45 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = baca;
+			remoteInfo = ReactNative;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "baca-tvOS";
+			remoteInfo = "ReactNative-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* bacaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bacaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* ReactNativeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactNativeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* bacaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bacaTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* baca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = baca.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = baca/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = baca/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* ReactNativeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNativeTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* ReactNative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactNative.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ReactNative/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ReactNative/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = baca/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = baca/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = baca/main.m; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* baca-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "baca-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* baca-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "baca-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		34DBC3CB8002CD7930EA025E /* Pods-baca.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baca.release.xcconfig"; path = "Target Support Files/Pods-baca/Pods-baca.release.xcconfig"; sourceTree = "<group>"; };
-		3B42A2D0BEAF8B6D43717544 /* libPods-baca.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-baca.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		592F308EF71E513E995B40FE /* Pods-baca.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baca.debug.xcconfig"; path = "Target Support Files/Pods-baca/Pods-baca.debug.xcconfig"; sourceTree = "<group>"; };
-		5B66534A8C217B6287237488 /* Pods-baca-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baca-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-baca-tvOS/Pods-baca-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		6597C972B2D4BBE0F1F386F1 /* libPods-baca-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-baca-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8114B1E12E8593E369029E2D /* Pods-baca-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baca-tvOS.release.xcconfig"; path = "Target Support Files/Pods-baca-tvOS/Pods-baca-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		8D24BA566BA0CDE80F52E3B5 /* libPods-baca-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-baca-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		91BE382A7E9664B84439EA47 /* Pods-bacaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bacaTests.release.xcconfig"; path = "Target Support Files/Pods-bacaTests/Pods-bacaTests.release.xcconfig"; sourceTree = "<group>"; };
-		9448FE6A7FFF2EBDE8840382 /* libPods-bacaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bacaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4AEC52F0BE4D51238AEDD2E /* Pods-baca-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baca-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-baca-tvOSTests/Pods-baca-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ReactNative/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ReactNative/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ReactNative/main.m; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* ReactNative-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReactNative-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* ReactNative-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReactNative-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34DBC3CB8002CD7930EA025E /* Pods-ReactNative.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNative.release.xcconfig"; path = "Target Support Files/Pods-ReactNative/Pods-ReactNative.release.xcconfig"; sourceTree = "<group>"; };
+		3B42A2D0BEAF8B6D43717544 /* libPods-ReactNative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		592F308EF71E513E995B40FE /* Pods-ReactNative.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNative.debug.xcconfig"; path = "Target Support Files/Pods-ReactNative/Pods-ReactNative.debug.xcconfig"; sourceTree = "<group>"; };
+		5B66534A8C217B6287237488 /* Pods-ReactNative-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNative-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ReactNative-tvOS/Pods-ReactNative-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		6597C972B2D4BBE0F1F386F1 /* libPods-ReactNative-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNative-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8114B1E12E8593E369029E2D /* Pods-ReactNative-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNative-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ReactNative-tvOS/Pods-ReactNative-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		8D24BA566BA0CDE80F52E3B5 /* libPods-ReactNative-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNative-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91BE382A7E9664B84439EA47 /* Pods-ReactNativeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeTests/Pods-ReactNativeTests.release.xcconfig"; sourceTree = "<group>"; };
+		9448FE6A7FFF2EBDE8840382 /* libPods-ReactNativeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4AEC52F0BE4D51238AEDD2E /* Pods-ReactNative-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNative-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNative-tvOSTests/Pods-ReactNative-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		ED3836520DDE8746174F94CE /* Pods-bacaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bacaTests.debug.xcconfig"; path = "Target Support Files/Pods-bacaTests/Pods-bacaTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F07D039AD7B1FF51B99F67FE /* Pods-baca-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baca-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-baca-tvOSTests/Pods-baca-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED3836520DDE8746174F94CE /* Pods-ReactNativeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeTests/Pods-ReactNativeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F07D039AD7B1FF51B99F67FE /* Pods-ReactNative-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNative-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNative-tvOSTests/Pods-ReactNative-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				106D63C3661F7E228702B361 /* libPods-bacaTests.a in Frameworks */,
+				106D63C3661F7E228702B361 /* libPods-ReactNativeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A3030956BD3EFE3830B83DE /* libPods-baca.a in Frameworks */,
+				6A3030956BD3EFE3830B83DE /* libPods-ReactNative.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2846DC45881ED4CE61DBF0EF /* libPods-baca-tvOS.a in Frameworks */,
+				2846DC45881ED4CE61DBF0EF /* libPods-ReactNative-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5596963E68CF3DD559C2D3E1 /* libPods-baca-tvOSTests.a in Frameworks */,
+				5596963E68CF3DD559C2D3E1 /* libPods-ReactNative-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* bacaTests */ = {
+		00E356EF1AD99517003FC87E /* ReactNativeTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* bacaTests.m */,
+				00E356F21AD99517003FC87E /* ReactNativeTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = bacaTests;
+			path = ReactNativeTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* baca */ = {
+		13B07FAE1A68108700A75B9A /* ReactNative */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +133,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = baca;
+			name = ReactNative;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				3B42A2D0BEAF8B6D43717544 /* libPods-baca.a */,
-				6597C972B2D4BBE0F1F386F1 /* libPods-baca-tvOS.a */,
-				8D24BA566BA0CDE80F52E3B5 /* libPods-baca-tvOSTests.a */,
-				9448FE6A7FFF2EBDE8840382 /* libPods-bacaTests.a */,
+				3B42A2D0BEAF8B6D43717544 /* libPods-ReactNative.a */,
+				6597C972B2D4BBE0F1F386F1 /* libPods-ReactNative-tvOS.a */,
+				8D24BA566BA0CDE80F52E3B5 /* libPods-ReactNative-tvOSTests.a */,
+				9448FE6A7FFF2EBDE8840382 /* libPods-ReactNativeTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,14 +152,14 @@
 		55E06FA87DFA10866A658822 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				592F308EF71E513E995B40FE /* Pods-baca.debug.xcconfig */,
-				34DBC3CB8002CD7930EA025E /* Pods-baca.release.xcconfig */,
-				5B66534A8C217B6287237488 /* Pods-baca-tvOS.debug.xcconfig */,
-				8114B1E12E8593E369029E2D /* Pods-baca-tvOS.release.xcconfig */,
-				A4AEC52F0BE4D51238AEDD2E /* Pods-baca-tvOSTests.debug.xcconfig */,
-				F07D039AD7B1FF51B99F67FE /* Pods-baca-tvOSTests.release.xcconfig */,
-				ED3836520DDE8746174F94CE /* Pods-bacaTests.debug.xcconfig */,
-				91BE382A7E9664B84439EA47 /* Pods-bacaTests.release.xcconfig */,
+				592F308EF71E513E995B40FE /* Pods-ReactNative.debug.xcconfig */,
+				34DBC3CB8002CD7930EA025E /* Pods-ReactNative.release.xcconfig */,
+				5B66534A8C217B6287237488 /* Pods-ReactNative-tvOS.debug.xcconfig */,
+				8114B1E12E8593E369029E2D /* Pods-ReactNative-tvOS.release.xcconfig */,
+				A4AEC52F0BE4D51238AEDD2E /* Pods-ReactNative-tvOSTests.debug.xcconfig */,
+				F07D039AD7B1FF51B99F67FE /* Pods-ReactNative-tvOSTests.release.xcconfig */,
+				ED3836520DDE8746174F94CE /* Pods-ReactNativeTests.debug.xcconfig */,
+				91BE382A7E9664B84439EA47 /* Pods-ReactNativeTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -175,9 +175,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* baca */,
+				13B07FAE1A68108700A75B9A /* ReactNative */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* bacaTests */,
+				00E356EF1AD99517003FC87E /* ReactNativeTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				55E06FA87DFA10866A658822 /* Pods */,
@@ -190,10 +190,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* baca.app */,
-				00E356EE1AD99517003FC87E /* bacaTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* baca-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* baca-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* ReactNative.app */,
+				00E356EE1AD99517003FC87E /* ReactNativeTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* ReactNative-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* ReactNative-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -201,9 +201,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* bacaTests */ = {
+		00E356ED1AD99517003FC87E /* ReactNativeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "bacaTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReactNativeTests" */;
 			buildPhases = (
 				F6199854DF3053D608A60576 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -215,14 +215,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = bacaTests;
-			productName = bacaTests;
-			productReference = 00E356EE1AD99517003FC87E /* bacaTests.xctest */;
+			name = ReactNativeTests;
+			productName = ReactNativeTests;
+			productReference = 00E356EE1AD99517003FC87E /* ReactNativeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* baca */ = {
+		13B07F861A680F5B00A75B9A /* ReactNative */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "baca" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactNative" */;
 			buildPhases = (
 				BA539D52DD39F55C52C50A12 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -235,14 +235,14 @@
 			);
 			dependencies = (
 			);
-			name = baca;
-			productName = baca;
-			productReference = 13B07F961A680F5B00A75B9A /* baca.app */;
+			name = ReactNative;
+			productName = ReactNative;
+			productReference = 13B07F961A680F5B00A75B9A /* ReactNative.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* baca-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* ReactNative-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "baca-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ReactNative-tvOS" */;
 			buildPhases = (
 				FEE2BEE0CE73D582F126A82C /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -255,14 +255,14 @@
 			);
 			dependencies = (
 			);
-			name = "baca-tvOS";
-			productName = "baca-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* baca-tvOS.app */;
+			name = "ReactNative-tvOS";
+			productName = "ReactNative-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* ReactNative-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* baca-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* ReactNative-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "baca-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ReactNative-tvOSTests" */;
 			buildPhases = (
 				F7779A43BD1567A27675A4CE /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -274,9 +274,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "baca-tvOSTests";
-			productName = "baca-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* baca-tvOSTests.xctest */;
+			name = "ReactNative-tvOSTests";
+			productName = "ReactNative-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* ReactNative-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -303,7 +303,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "baca" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ReactNative" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -316,10 +316,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* baca */,
-				00E356ED1AD99517003FC87E /* bacaTests */,
-				2D02E47A1E0B4A5D006451C7 /* baca-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* baca-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* ReactNative */,
+				00E356ED1AD99517003FC87E /* ReactNativeTests */,
+				2D02E47A1E0B4A5D006451C7 /* ReactNative-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* ReactNative-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -402,7 +402,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-baca-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ReactNative-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -424,7 +424,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-bacaTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ReactNativeTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -446,7 +446,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-baca-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ReactNative-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -506,7 +506,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-baca-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ReactNative-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -520,7 +520,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* bacaTests.m in Sources */,
+				00E356F31AD99517003FC87E /* ReactNativeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,7 +546,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* bacaTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* ReactNativeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,12 +555,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* baca */;
+			target = 13B07F861A680F5B00A75B9A /* ReactNative */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* baca-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* ReactNative-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -572,7 +572,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = baca;
+			path = ReactNative;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -580,14 +580,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED3836520DDE8746174F94CE /* Pods-bacaTests.debug.xcconfig */;
+			baseConfigurationReference = ED3836520DDE8746174F94CE /* Pods-ReactNativeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = bacaTests/Info.plist;
+				INFOPLIST_FILE = ReactNativeTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -597,17 +597,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/baca.app/baca";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNative.app/ReactNative";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91BE382A7E9664B84439EA47 /* Pods-bacaTests.release.xcconfig */;
+			baseConfigurationReference = 91BE382A7E9664B84439EA47 /* Pods-ReactNativeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = bacaTests/Info.plist;
+				INFOPLIST_FILE = ReactNativeTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -617,18 +617,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/baca.app/baca";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNative.app/ReactNative";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 592F308EF71E513E995B40FE /* Pods-baca.debug.xcconfig */;
+			baseConfigurationReference = 592F308EF71E513E995B40FE /* Pods-ReactNative.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				INFOPLIST_FILE = baca/Info.plist;
+				INFOPLIST_FILE = ReactNative/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -636,18 +636,18 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = baca;
+				PRODUCT_NAME = ReactNative;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34DBC3CB8002CD7930EA025E /* Pods-baca.release.xcconfig */;
+			baseConfigurationReference = 34DBC3CB8002CD7930EA025E /* Pods-ReactNative.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = baca/Info.plist;
+				INFOPLIST_FILE = ReactNative/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -655,14 +655,14 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = baca;
+				PRODUCT_NAME = ReactNative;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B66534A8C217B6287237488 /* Pods-baca-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 5B66534A8C217B6287237488 /* Pods-ReactNative-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -673,14 +673,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "baca-tvOS/Info.plist";
+				INFOPLIST_FILE = "ReactNative-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.baca-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ReactNative-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -690,7 +690,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8114B1E12E8593E369029E2D /* Pods-baca-tvOS.release.xcconfig */;
+			baseConfigurationReference = 8114B1E12E8593E369029E2D /* Pods-ReactNative-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -701,14 +701,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "baca-tvOS/Info.plist";
+				INFOPLIST_FILE = "ReactNative-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.baca-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ReactNative-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -718,7 +718,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4AEC52F0BE4D51238AEDD2E /* Pods-baca-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = A4AEC52F0BE4D51238AEDD2E /* Pods-ReactNative-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -728,24 +728,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "baca-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "ReactNative-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.baca-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ReactNative-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/baca-tvOS.app/baca-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNative-tvOS.app/ReactNative-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F07D039AD7B1FF51B99F67FE /* Pods-baca-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = F07D039AD7B1FF51B99F67FE /* Pods-ReactNative-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -755,17 +755,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "baca-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "ReactNative-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.baca-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ReactNative-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/baca-tvOS.app/baca-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNative-tvOS.app/ReactNative-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -872,7 +872,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "bacaTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReactNativeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -881,7 +881,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "baca" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactNative" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -890,7 +890,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "baca-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ReactNative-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -899,7 +899,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "baca-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ReactNative-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -908,7 +908,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "baca" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ReactNative" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
